@@ -1,45 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Benjamin Brunet" />
-        <meta name="description" content="Porfolio" />
+        <meta name="description" content="Voici Mon Portfolio, vous y trouverez toutes les informations sur moi, la possibilité de me contacter ainsi que tous mes projets." />
         <meta name="keywords" content="HTML5, CSS3, JavaScript, ECMA Script, ES6, Git, GitHub, React" />
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" sizes="128x128" href="./images/logo_code.png"/>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600;700&family=Fira+Code&family=Manrope&family=Montserrat:wght@700&family=Pacifico&family=Poppins&family=Qwitcher+Grypen:wght@400;700&family=Raleway:wght@500;600&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="64x64" href="./images/logo_code.png"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-        <link href="css/main.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
         <script src="script.js"></script>
         <title>Mon PortFolio</title>
     </head>
     <body>
-        <div id="mouse-cursor"></div>
-        <h1 class="cursor-hover active"><a href="#">Brunet Benjamin</a></h1>
-        <header id="header">
-            <nav aria-label="Main menu">
-                <a href="#hero" target="_self">Accueil</a>
-                <a href="#hero" target="_self">À propos</a>
-                <a href="#projects" target="_self">Projets</a>
-                <a href="#contact" target="_self">Contact</a>
+        <div id="curseur-souris"></div>
+        <h1 class="survol-curseur"><a href="#">Brunet Benjamin</a></h1>
+        <header>
+            <nav>
+                <a href="#" target="_self">Accueil</a>
+                <a href="#" target="_self">À propos</a>
+                <a href="#" target="_self">Projets</a>
+                <a href="#" target="_self">Contact</a>
                 <div class="animation start-home"></div>
             </nav>
         </header>
         <main>
             <section id="hero" class="hero" >
                 <div class="hero__profile flex-center">
-                    <!--<h1 class="hero__name">Benjamin Brunet</h1>          
-                    <p class="hero__role">Développeur Web | Développeur de Logiciel</p>
-                    <div class="hero__portrait">
-                        <img class="hero__avatar" src="./images/pexels-mockupeditorcom-205316.jpg" alt="Profile picture"/>      
-                    </div>-->
-                    <!--<a class="hero__cta" href="#projects">Projets</a> -->
                     <div class="stage">
                         <div class="layer"></div>
                         <div class="layer"></div>
@@ -114,57 +106,10 @@
                     </ul>
                 </div>
             </section>
-            <!--<div class="gradient gradient-inverted"></div>-->
             <section id="projects" class="section flex-center section-projects container-standard">
                 <div class="wrapper wrapper1">
                     <h2><a href="#" class="effect-shine">Meilleurs Projets</a></h2>
                 </div>
-                <!--<div class="projects-wrapper">
-                    <article class="project">
-                        <a class="image-wrapper" href="#projects">
-                            <img class="project__image" src="./images/prochainement.png" alt="Prochainement"/>
-                        </a> 
-                        <div class="project__content">
-                            <h3 class="project__heading">Titre</h3>
-                            <p class="project__descripton">Description</p>
-                            <p class="project__footer">Langages de programmation</p>
-                        </div>
-                        <div class="project__cta">
-                            <a class="cta__link" href="#">Site Internet</a>
-                            <a class="cta__link" href="#">GitHub</a>
-                        </div>
-                    </article>
-                    <article class="project">
-                        <a class="image-wrapper"
-                            href="#projects">
-                            <img class="project__image" src="./images/coming-soon2.jpg" alt="Prochainement"/>
-                        </a> 
-                        <div class="project__content">
-                            <h3 class="project__heading">Titre</h3>
-                            <p class="project__descripton">Description</p>
-                            <p class="project__footer">Langages de programmation</p>
-                        </div>
-                        <div class="project__cta">
-                            <a class="cta__link" href="#">Site Internet</a>
-                            <a class="cta__link" href="#">GitHub</a>
-                        </div>
-                    </article>
-                    <article class="project">
-                        <a class="image-wrapper"
-                            href="./components.html">
-                            <img class="project__image" src="./images/coming-soon2.jpg" alt="Prochainement"/>
-                        </a> 
-                        <div class="project__content">
-                            <h3 class="project__heading">Titre</h3>
-                            <p class="project__descripton">Description</p>
-                            <p class="project__footer">Langages de programmation</p>
-                        </div>
-                        <div class="project__cta">
-                            <a class="cta__link" href="#">Site Internet</a>
-                            <a class="cta__link" href="#">GitHub</a>
-                        </div>
-                    </article>
-                </div>-->
                 <div class="cards">
                     <article class="card card--1">
                       <div class="card__info-hover">
@@ -220,43 +165,10 @@
                     </article>  
                 </div>
             </section>
-            <!--<div class="gradient"></div>-->
             <section id="components" class="section container-standard">
                 <div class="wrapper wrapper2">
                     <h2><a href="#" class="effect-shine">Mes Projets</a></h2>
                 </div>
-                <!--<div class="components-wrapper">
-                    <article class="card">
-                        <a href="#" class="link card__link">
-                            <img class="card__image" src="./images/calcul_mental.png" alt="Projet Calcul Mental" title="image"/>
-                        </a>
-                        <div class="card__description">
-                            <a href="#" class="card__link">
-                                <p class="card__name">Calcul Mental</p>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <a href="#" class="link card__link">
-                            <img class="card__image" src="./images/coming-soon1.jpg" alt="Prochainement" title="image"/>
-                        </a>
-                        <div class="card__description">
-                            <a href="#" class="card__link">
-                                <p class="card__name">Titre</p>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <a href="#" class="link card__link">
-                            <img class="card__image" src="./images/coming-soon1.jpg" alt="Prochainement" title="image"/>
-                        </a>
-                        <div class="card__description">
-                            <a href="#" class="card__link">
-                                <p class="card__name">Titre</p>
-                            </a>
-                        </div>
-                    </article>
-                </div>--> 
                 <div class="slider">
                     <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
                     <input type="radio" name="slider" title="slide2" class="slider__nav"/>
@@ -290,25 +202,7 @@
                     </div>
                 </div>
             </section>
-            <!--<div class="gradient gradient-inverted"></div>-->
             <section class="section flex-center container-standard">
-                <!--<h2 class="section__heading">Travaillons ensemble !</h2>
-                <form id="contact-form" class="form">
-                    <input type="hidden" name="contact_number">
-                    <div class="control-wrapper">
-                        <label class="form__label"></label>
-                        <input class="form__input" type="text" name="user_name" placeholder="Nom ou Société">
-                    </div>
-                    <div class="control-wrapper">
-                        <label class="form__label"></label>
-                        <input class="form__input" type="email" name="user_email" placeholder="Email">
-                    </div>
-                    <div class="control-wrapper">
-                        <label class="form__label"></label>
-                        <textarea class="form__input" name="message" placeholder="Rédigez votre message" rows="7" cols="20"></textarea>
-                    </div>
-                    <input class="form__button" type="submit" value="Envoyer">
-                </form>-->
                 <div class="background">
                     <div class="container">
                         <div class="screen">
@@ -360,38 +254,6 @@
         </main>
         <footer>
             <section id="contact" class="section flex-center footer">
-                <!--<p>Envie d'échanger aussi ? Faites-le-moi savoir.</p>
-                <ul class="section__list flex-center">
-                    <li class="list__item-icon icon-social">
-                    <a href="#" target="_self">
-                            <img src="./images/linkedin.png" alt="Linkedin" aria-hidden="true">
-                            <span class="sr-only">Linkedin</span>
-                        </a>
-                    </li>
-                    <li class="list__item-icon icon-social">
-                        <a href="#" target="_self">
-                            <img src="./images/githubSocial.png" alt="Github" aria-hidden="true">
-                            <span class="sr-only">Github</span>
-                        </a>
-                    </li>
-                </ul>
-                <nav class="">
-                    <ul class=" flex-center">
-                        <li class=" flex-center">
-                            <a class="nav__link" href="#skip-link" target="_self">Accueil</a>
-                        </li>
-                        <li class="nav__item flex-center">
-                            <a class="nav__link" href="#skip-link" target="_self">À propos</a>
-                        </li>
-                        </li class="nav__item">
-                            <a class="nav__link" href="#projects" target="_self">Projets</a>
-                        </li>
-                        <li class="">
-                            <a href="#contact" target="_self">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <p><small>&copy; 2022 - benjamin brunet</small></p>-->
                 <div class="waveWrapper waveAnimation">
                     <div class="waveWrapperInner bgTop">
                       <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
