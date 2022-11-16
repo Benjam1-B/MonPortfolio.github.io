@@ -1,294 +1,320 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="Benjamin Brunet" />
-        <meta name="description" content="Voici Mon Portfolio, vous y trouverez toutes les informations sur moi, la possibilité de me contacter ainsi que tous mes projets." />
-        <meta name="keywords" content="HTML5, CSS3, JavaScript, ECMA Script, ES6, Git, GitHub, React" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600;700&family=Fira+Code&family=Manrope&family=Montserrat:wght@700&family=Pacifico&family=Poppins&family=Qwitcher+Grypen:wght@400;700&family=Raleway:wght@500;600&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" sizes="64x64" href="./images/logo_code.png"/>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-        <link href="style.css" rel="stylesheet" />
-        <script src="script.js"></script>
-        <title>Mon PortFolio</title>
-    </head>
-    <body>
-        <div id="curseur-souris"></div>
-        <h1 class="survol-curseur"><a href="#">Brunet Benjamin</a></h1>
-        <header>
-            <nav>
-                <a href="#" target="_self">Accueil</a>
-                <a href="#" target="_self">À propos</a>
-                <a href="#" target="_self">Projets</a>
-                <a href="#" target="_self">Contact</a>
-                <div class="animation start-home"></div>
-            </nav>
-        </header>
-        <main>
-            <section id="hero" class="hero" >
-                <div class="hero__profile flex-center">
-                    <div class="stage">
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                        <div class="layer"></div>
-                    </div>
-                    <div class="frame">
-                        <button class="custom-btn btn"><span>C'est partie !</span><span>Mon CV</span></button>
-                    </div>
-                </div>
-                <div class="hero__bio flex-center">
-                    <div class="about__bio flex-center">
-                        <p>À PROPOS DE MOI</p>
-                        <p>Actuellement Technicien Système et Réseau, je suis en formation pour devenir Développeur Python</p>
-                        <p>J’effectue une veille quotidienne sur les technologies que je connais et celle que j'étudie, mais aussi sur la Cryptomonnaie et la Blockchain qui me passionnent énormément.</p>         
-                        <p>Curieux et motivé, j’ai un goût prononcé pour le challenge, qui me pousse à me dépasser continuellement.</p>     
-                        <p>Si mon profil vous intéresse, n'hésitez pas à me contacter !</p>
-                    </div>
-                    <ul class="section__list flex-center">
-                        <li class="list__item-icon">
-                            <img src="./images/html5.png" alt="HTML5" title="HTML5" aria-hidden="true" />
-                            <span class="sr-only">HTML5</span>
-                        </li>
-                        <li class="list__item-icon">
-                            <img src="./images/css3.png" alt="CSS3" title="CSS3" aria-hidden="true" />
-                            <span class="sr-only">CSS3</span>
-                        </li>
-                        <li class="list__item-icon" title="Sass">
-                            <img src="./images/python.png" alt="SASS" title="SASS" aria-hidden="true" />
-                            <span class="sr-only">Python</span>
-                        </li>
-                        <li class="list__item-icon" title="JavaScript">
-                            <img src="./images/javascript.png" alt="JavaScript" title="JavaScript" aria-hidden="true" />
-                            <span class="sr-only">JavaScript</span>
-                        </li>
-                        <li class="list__item-icon">
-                            <img src="./images/linux.png" alt="Typescript"  title="Typescript" aria-hidden="true" alt="TypeScript" />
-                            <span class="sr-only">Linux</span>
-                        </li>
-                        <li class="list__item-icon">
-                            <img src="./images/PostgreSql.png" alt="React" title="React" aria-hidden="true" />
-                            <span class="sr-only">PostgreSql</span>
-                        </li>
-                        <li class="list__item-icon">
-                            <img src="./images/Golang.png" alt="Node Package manager" title="Node Package manager" aria-hidden="true" >
-                            <span class="sr-only">Golang</span>
-                        </li>
-                        <li class="list__item-icon">
-                            <img src="./images/visual-studio-team-services-git-repository.png"  aria-hidden="true" title="Git" alt="Git">
-                            <span class="sr-only">Git</span>
-                        </li>
-                        <li class="list__item-icon">
-                            <img src="./images/github.png" title="Github" alt="Github" aria-hidden="true" alt="Github"/>
-                            <span class="sr-only">Github</span>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section id="projects" class="section flex-center section-projects container-standard">
-                <div class="wrapper wrapper1">
-                    <h2><a href="#" class="effect-shine">Meilleurs Projets</a></h2>
-                </div>
-                <div class="cards">
-                    <article class="card card--1">
-                      <div class="card__info-hover">
-                        <a href="#">
-                            <svg class="card__like" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
-                            <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
-                            </svg>
-                        </a>
-                        <div class="card__clock-info">
-                                <a href="#">
-                                    <svg class="card__clock" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16">
-                                        <path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 7 4 L 7 5 L 8 5 L 8 4 Z M 7 6 L 7 11 L 8 11 L 8 6 Z"></path>
-                                    </svg>
-                                </a>
-                                <a href="#"><span class="card__time">Site Web</span></a>
-                        </div>
-                      </div>
-                      <div class="card__img"></div>
-                      <div href="#" class="card_link">
-                         <div class="card__img--hover"></div>
-                      </div>
-                      <div class="card__info">
-                        <span class="card__category">Mon Portfolio</span>
-                          <h3 class="card__title">Site Web Statique.</h3>
-                        <span class="card__by"><a href="#" class="card__author" title="author">HTML | CSS | JS</a></span>
-                      </div>
-                    </article> 
-                    <article class="card card--2">
-                      <div class="card__info-hover">
-                        <a href="#">
-                            <svg class="card__like" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
-                            <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
-                            </svg>
-                        </a>
-                        <div class="card__clock-info">
-                            <a href="#">
-                                <svg class="card__clock" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16">
-                                    <path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 7 4 L 7 5 L 8 5 L 8 4 Z M 7 6 L 7 11 L 8 11 L 8 6 Z"></path>
-                                </svg>
-                            </a>
-                          <a href="#"><span class="card__time">Site Web</span></a>
-                        </div>
-                      </div>
-                      <div class="card__img"></div>
-                      <div class="card_link">
-                         <div class="card__img--hover"></div>
-                      </div>
-                      <div class="card__info">
-                        <span class="card__category">Projet en cours...</span>
-                          <h3 class="card__title">Création d'un site web dynamique.</h3>
-                        <span class="card__by"><a href="#" class="card__author" title="author">HTML | CSS | Bootstrap | Python | Django</a></span>
-                      </div>
-                    </article>  
-                </div>
-            </section>
-            <section id="components" class="section container-standard">
-                <div class="wrapper wrapper2">
-                    <h2><a href="#" class="effect-shine">Mes Projets</a></h2>
-                </div>
-                <div class="slider">
-                    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-                    <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-                    <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-                    <input type="radio" name="slider" title="slide4" class="slider__nav"/>
-                    <div class="slider__inner">
-                      <div class="slider__contents slider__contents1">
-                        <div class="slider__text">
-                          <h2 class="slider__caption">Calcul Mental</h2>
-                          <p class="slider__txt">Venez tester vos compétences en calcul mental selon votre niveau et votre goût pour les mathématiques !</p>
-                        </div>
-                      </div>
-                      <div class="slider__contents slider__contents2">
-                        <div class="slider__text">
-                          <h2 class="slider__caption">Projet en cours</h2>
-                          <p class="slider__txt">Description à venir...</p>
-                        </div>
-                      </div>
-                      <div class="slider__contents slider__contents3">
-                        <div class="slider__text">
-                          <h2 class="slider__caption">Projet en cours</h2>
-                          <p class="slider__txt">Description à venir...</p>
-                        </div>
-                      </div>
-                      <div class="slider__contents slider__contents4">
-                        <div class="slider__text">
-                          <h2 class="slider__caption">Projet en cours</h2>
-                          <p class="slider__txt">Description à venir...</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section flex-center container-standard">
-                <div class="background">
-                    <div class="container">
-                        <div class="screen">
-                            <div class="screen-header">
-                                <div class="screen-header-left">
-                                    <div class="screen-header-button close"></div>
-                                    <div class="screen-header-button maximize"></div>
-                                    <div class="screen-header-button minimize"></div>
-                                </div>
-                                <div class="screen-header-right">
-                                    <div class="screen-header-ellipsis"></div>
-                                    <div class="screen-header-ellipsis"></div>
-                                    <div class="screen-header-ellipsis"></div>
-                                </div>
-                                </div>
-                                <div class="screen-body">
-                                <div class="screen-body-item left">
-                                    <div class="app-title">
-                                        <span>CONTACTEZ</span>
-                                        <span>MOI</span>
-                                    </div>
-                                    <div class="app-contact">INFO DE CONTACT : 07 00 00 00 00</div>
-                                </div>
-                                <div class="screen-body-item">
-                                    <div class="app-form">
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="NOM">
-                                    </div>
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="EMAIL">
-                                    </div>
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="NUMERO DE CONTACT">
-                                    </div>
-                                    <div class="app-form-group message">
-                                        <input class="app-form-control" placeholder="MESSAGE">
-                                    </div>
-                                    <div class="app-form-group buttons">
-                                        <button class="app-form-button1">ANNULER</button>
-                                        <button class="app-form-button2">ENVOYER</button>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <section id="contact" class="section flex-center footer">
-                <div class="waveWrapper waveAnimation">
-                    <div class="waveWrapperInner bgTop">
-                      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
-                    </div>
-                    <div class="waveWrapperInner bgMiddle">
-                      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
-                    </div>
-                    <div class="waveWrapperInner bgBottom">
-                      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
-                    </div>
-                </div>
-                <ul class="credits">
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        <span> - Linkedin</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                        <span> - Github</span>
-                      </a>
-                    </li>
-                </ul>
-            </section>
-        </footer>    
-        <style>
-            * *, *::before, *::after { 
-              animation-play-state: running !important;
-            }
-        </style>
-        <script>window.setTimeout = null;</script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <script type="text/javascript" src="./scripts/email.js"></script>
-        <script src="https://kit.fontawesome.com/301fbecf53.js" crossorigin="anonymous"></script>
-    </body>
-</html>     
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="Benjamin Brunet" />
+		<meta name="description" content="Voici Mon Portfolio, vous y trouverez toutes les informations sur moi, la possibilité de me contacter ainsi que tous mes projets." />
+		<meta name="keywords" content="HTML5, CSS3, JavaScript, ECMA Script, ES6, Git, GitHub, React" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600;700&family=Fira+Code&family=Manrope&family=Montserrat:wght@700&family=Pacifico&family=Poppins&family=Qwitcher+Grypen:wght@400;700&family=Raleway:wght@500;600&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" sizes="64x64" href="./images/logo_code.png"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+		<link href="style.css" rel="stylesheet" />
+		<script src="script.js"></script>
+		<title>Mon PortFolio</title>
+	</head>
+	<body>
+		<div id="curseur-souris"></div>
+		<h1 class="survol-curseur"><a href="#">Brunet Benjamin</a></h1>
+		<header>
+			<nav>
+				<a href="#" target="_self">Accueil</a>
+				<a href="#" target="_self">À propos</a>
+				<a href="#" target="_self">Projets</a>
+				<a href="#" target="_self">Contact</a>
+				<div class="animation effet-coulissant"></div>
+			</nav>
+		</header>
+		<main>
+			<section class="accueil" >
+				<div class="accueil-gauche alignement-central">
+					<div class="lettre-3d">
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+						<div class="couche"></div>
+					</div>
+					<div class="bouton-3d">
+						<button class="modif-bouton btn">
+							<span>C'est partie !</span>
+							<span>Mon CV</span>
+						</button>
+					</div>
+				</div>
+				<div class="accueil-bio alignement-central">
+					<div class="a-propos alignement-central">
+						<p>
+							À PROPOS DE MOI
+						</p>
+						<p>
+							Actuellement Technicien Système et Réseau, je suis en formation pour devenir Développeur Python
+						</p>
+						<p>
+							J’effectue une veille quotidienne sur les technologies que je connais et celle que j'étudie, mais aussi sur la Cryptomonnaie et la Blockchain qui me passionnent énormément.
+						</p>
+						<p>
+							Curieux et motivé, j’ai un goût prononcé pour le challenge, qui me pousse à me dépasser continuellement.
+						</p>
+						<p>
+							Si mon profil vous intéresse, n'hésitez pas à me contacter !
+						</p>
+					</div>
+					<ul class="liste-icon alignement-central">
+						<li class="icon-dev">
+							<img src="./images/html5.png" alt="HTML5" title="HTML5" aria-hidden="true" />
+							<span class="sr-only">HTML5</span>
+						</li>
+						<li class="icon-dev">
+							<img src="./images/css3.png" alt="CSS3" title="CSS3" aria-hidden="true" />
+							<span class="sr-only">CSS3</span>
+						</li>
+						<li class="icon-dev" title="Sass">
+							<img src="./images/python.png" alt="Python" title="Python" aria-hidden="true" />
+							<span class="sr-only">Python</span>
+						</li>
+						<li class="icon-dev" title="JavaScript">
+							<img src="./images/javascript.png" alt="JavaScript" title="JavaScript" aria-hidden="true" />
+							<span class="sr-only">JavaScript</span>
+						</li>
+						<li class="icon-dev">
+							<img src="./images/linux.png" alt="Linux"  title="Linux" aria-hidden="true" alt="TypeScript" />
+							<span class="sr-only">Linux</span>
+						</li>
+						<li class="icon-dev">
+							<img src="./images/PostgreSql.png" alt="PostgreSql" title="PostgreSql" aria-hidden="true" />
+							<span class="sr-only">PostgreSql</span>
+						</li>
+						<li class="icon-dev">
+							<img src="./images/Golang.png" alt="Golang" title="Golang" aria-hidden="true" >
+							<span class="sr-only">Golang</span>
+						</li>
+						<li class="icon-dev">
+							<img src="./images/visual-studio-team-services-git-repository.png"  aria-hidden="true" title="Git" alt="Git">
+							<span class="sr-only">Git</span>
+						</li>
+						<li class="icon-dev">
+							<img src="./images/github.png" title="Github" alt="Github" aria-hidden="true" alt="Github"/>
+							<span class="sr-only">Github</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section alignement-central">
+				<div class="titre titre1">
+					<h2><a href="#" class="effet-brillant">Meilleurs Projets</a></h2>
+				</div>
+				<div class="cartes">
+					<article class="carte carte--1">
+						<div class="carte-info-survol">
+							<a href="#">
+								<svg class="carte-github" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+									<path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+								</svg>
+							</a>
+							<div class="carte-info-site">
+								<a href="#">
+									<svg class="carte-info" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16">
+										<path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 7 4 L 7 5 L 8 5 L 8 4 Z M 7 6 L 7 11 L 8 11 L 8 6 Z"></path>
+									</svg>
+								</a>
+								<a href="#"><span class="carte-site">Site Web</span></a>
+							</div>
+						</div>
+						<div class="carte__img"></div>
+						<div href="#">
+							<div class="carte-img-survol"></div>
+						</div>
+						<div class="carte__info">
+							<span class="carte-categorie">Mon Portfolio</span>
+							<h3 class="carte-titre">Site Web Statique.</h3>
+							<span class="carte-info-dev"><a href="#" class="carte-info-langages" title="author">HTML | CSS | JS</a></span>
+						</div>
+					</article>
+					<article class="carte carte--2">
+						<div class="carte-info-survol">
+							<a href="#">
+								<svg class="carte-github" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+									<path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+								</svg>
+							</a>
+							<div class="carte-info-site">
+								<a href="#">
+									<svg class="carte-info" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16">
+										<path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 7 4 L 7 5 L 8 5 L 8 4 Z M 7 6 L 7 11 L 8 11 L 8 6 Z"></path>
+									</svg>
+								</a>
+								<a href="#"><span class="carte-site">Site Web</span></a>
+							</div>
+						</div>
+						<div class="carte__img"></div>
+						<div>
+							<div class="carte-img-survol"></div>
+						</div>
+						<div class="carte__info">
+							<span class="carte-categorie">Projet en cours...</span>
+							<h3 class="carte-titre">Création d'un site web dynamique.</h3>
+							<span class="carte-info-dev"><a href="#" class="carte-info-langages" title="author">HTML | CSS | Bootstrap | Python | Django</a></span>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section id="mes-projets" class="section">
+				<div class="titre titre2">
+					<h2><a href="#" class="effet-brillant">Mes Projets</a></h2>
+				</div>
+				<div class="mes-projets-defilement">
+					<input type="radio" name="slider" title="slide1" checked="checked" class="bouton-defilement"/>
+					<input type="radio" name="slider" title="slide2" class="bouton-defilement"/>
+					<input type="radio" name="slider" title="slide3" class="bouton-defilement"/>
+					<input type="radio" name="slider" title="slide4" class="bouton-defilement"/>
+					<div class="defilement-image">
+						<div class="defilement-contenu defilement-contenu1">
+							<div class="defilement-texte">
+								<h2 class="defilement-legende">Calcul Mental</h2>
+								<p class="defilement-description">
+									Venez tester vos compétences en calcul mental selon votre niveau et votre goût pour les mathématiques !
+								</p>
+							</div>
+						</div>
+						<div class="defilement-contenu defilement-contenu2">
+							<div class="defilement-texte">
+								<h2 class="defilement-legende">Projet en cours</h2>
+								<p class="defilement-description">
+									Description à venir...
+								</p>
+							</div>
+						</div>
+						<div class="defilement-contenu defilement-contenu3">
+							<div class="defilement-texte">
+								<h2 class="defilement-legende">Projet en cours</h2>
+								<p class="defilement-description">
+									Description à venir...
+								</p>
+							</div>
+						</div>
+						<div class="defilement-contenu defilement-contenu4">
+							<div class="defilement-texte">
+								<h2 class="defilement-legende">Projet en cours</h2>
+								<p class="defilement-description">
+									Description à venir...
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section alignement-central">
+				<div class="fond">
+					<div class="contenu">
+						<div class="formulaire">
+							<div class="formulaire-entete">
+								<div class="formulaire-entete-gauche">
+									<div class="formulaire-entete-bouton fermer"></div>
+									<div class="formulaire-entete-bouton maximum"></div>
+									<div class="formulaire-entete-bouton minimum"></div>
+								</div>
+								<div class="formulaire-entete-droite">
+									<div class="formulaire-entete-point"></div>
+									<div class="formulaire-entete-point"></div>
+									<div class="formulaire-entete-point"></div>
+								</div>
+							</div>
+							<div class="corp-formulaire">
+								<div class="corp-formulaire-infos gauche">
+									<div class="titre-formulaire">
+										<span>CONTACTEZ</span>
+										<span>MOI</span>
+									</div>
+									<div class="formulaire-info-contact">
+										INFO DE CONTACT : 07 86 20 99 23
+									</div>
+								</div>
+								<div class="corp-formulaire-infos">
+									<div>
+										<div class="formulaire-renseignement-groupe">
+											<input class="formulaire-renseignement-controle" placeholder="NOM">
+										</div>
+										<div class="formulaire-renseignement-groupe">
+											<input class="formulaire-renseignement-controle" placeholder="EMAIL">
+										</div>
+										<div class="formulaire-renseignement-groupe">
+											<input class="formulaire-renseignement-controle" placeholder="NUMERO DE CONTACT">
+										</div>
+										<div class="formulaire-renseignement-groupe message">
+											<input class="formulaire-renseignement-controle" placeholder="MESSAGE">
+										</div>
+										<div class="formulaire-renseignement-groupe buttons">
+											<button class="formulaire-renseignement-bouton1">ANNULER</button>
+											<button class="formulaire-renseignement-bouton2">ENVOYER</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<section class="section alignement-central pied-de-page">
+				<div class="vagues vague-animation">
+					<div class="vague-interieur vague-haut">
+						<div class="vague vague-en-haut" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+					</div>
+					<div class="vague-interieur vague-milieu">
+						<div class="vague vague-au-milieu" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+					</div>
+					<div class="vague-interieur vague-bas">
+						<div class="vague vague-en-bas" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+					</div>
+				</div>
+				<ul class="credits">
+					<li>
+						<a href="#">
+							<i class="fab fa-linkedin" aria-hidden="true"></i>
+							<span> - Linkedin</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-github" aria-hidden="true"></i>
+							<span> - Github</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</footer>
+		<style>
+			* *, *::before, *::after
+			{
+				animation-play-state: running !important;
+			}
+		</style>
+		<script>
+			window.setTimeout = null;
+		</script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script type="text/javascript" src="./scripts/email.js"></script>
+		<script src="https://kit.fontawesome.com/301fbecf53.js" crossorigin="anonymous"></script>
+	</body>
+</html>
