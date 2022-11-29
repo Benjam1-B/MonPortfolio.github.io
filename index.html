@@ -7,22 +7,31 @@
 		<meta name="robots" content="index, follow" />
 		<meta name="author" content="Benjamin Brunet" />
 		<meta name="description" content="Voici Mon Portfolio, vous y trouverez toutes les informations sur moi, la possibilité de me contacter ainsi que tous mes projets." />
-		<meta name="keywords" content="HTML5, CSS3, JavaScript, ECMA Script, ES6, Git, GitHub, React" />
+		<meta name="keywords" content="HTML5, CSS3, JavaScript, Python, ES6, Git, GitHub, React" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600;700&family=Fira+Code&family=Manrope&family=Montserrat:wght@700&family=Pacifico&family=Poppins&family=Qwitcher+Grypen:wght@400;700&family=Raleway:wght@500;600&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
 		<link rel="icon" type="image/png" sizes="64x64" href="./images/logo_code.png"/>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 		<link href="style.css" rel="stylesheet" />
-		<script src="script.js"></script>
+		<!--<script type="text/javascript" src="script.js"></script>-->
 		<title>Mon PortFolio</title>
 	</head>
 	<body>
-		<div id="curseur-souris"></div>
-		<h1 class="survol-curseur"><a href="#">Brunet Benjamin</a></h1>
+		<div id="stars"></div>
+    	<div id="stars2"></div>
+    	<div id="stars3"></div>
+		<ul class="curseur-section">
+			<!--<li>
+			  <a href="#" class="lien-curseur lien-survol">hover me</a>     
+			</li> -->
+			<div class="curseur" id="curseur"></div>
+			<div class="curseur2" id="curseur2"></div>
+		</ul>
+		<h1 class="survol-curseur"><a href="#" class="curseur-section lien-survol">Mon Portfolio</a></h1>
 		<header>
 			<nav>
-				<a href="#" target="_self">Accueil</a>
+				<a href="#" target="_self" class="nav-accueil">Accueil</a>
 				<a href="#" target="_self">À propos</a>
 				<a href="#" target="_self">Projets</a>
 				<a href="#" target="_self">Contact</a>
@@ -55,7 +64,7 @@
 						<div class="couche"></div>
 					</div>
 					<div class="bouton-3d">
-						<button class="modif-bouton btn">
+						<button class="modif-bouton btn curseur-section lien-survol">
 							<span>C'est partie !</span>
 							<span>Mon CV</span>
 						</button>
@@ -67,10 +76,10 @@
 							À PROPOS DE MOI
 						</p>
 						<p>
-							Actuellement Technicien Système et Réseau, je suis en formation pour devenir Développeur Python
+							Je suis un jeune Développeur Web, passionné de code et d'informatique.
 						</p>
 						<p>
-							J’effectue une veille quotidienne sur les technologies que je connais et celle que j'étudie, mais aussi sur la Cryptomonnaie et la Blockchain qui me passionnent énormément.
+							J’effectue une veille quotidienne sur les technologies que je connais et celle que j'étudie, mais aussi sur la Cybersécurité et l'Administration Système qui me passionnent énormément.
 						</p>
 						<p>
 							Curieux et motivé, j’ai un goût prononcé pour le challenge, qui me pousse à me dépasser continuellement.
@@ -80,39 +89,39 @@
 						</p>
 					</div>
 					<ul class="liste-icon alignement-central">
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/html5.png" alt="HTML5" title="HTML5" aria-hidden="true" />
 							<span class="sr-only">HTML5</span>
 						</li>
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/css3.png" alt="CSS3" title="CSS3" aria-hidden="true" />
 							<span class="sr-only">CSS3</span>
 						</li>
-						<li class="icon-dev" title="Sass">
+						<li class="icon-dev curseur-section lien-survol" title="Sass">
 							<img src="./images/python.png" alt="Python" title="Python" aria-hidden="true" />
 							<span class="sr-only">Python</span>
 						</li>
-						<li class="icon-dev" title="JavaScript">
+						<li class="icon-dev curseur-section lien-survol" title="JavaScript">
 							<img src="./images/javascript.png" alt="JavaScript" title="JavaScript" aria-hidden="true" />
 							<span class="sr-only">JavaScript</span>
 						</li>
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/linux.png" alt="Linux"  title="Linux" aria-hidden="true" alt="TypeScript" />
 							<span class="sr-only">Linux</span>
 						</li>
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/PostgreSql.png" alt="PostgreSql" title="PostgreSql" aria-hidden="true" />
 							<span class="sr-only">PostgreSql</span>
 						</li>
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/Golang.png" alt="Golang" title="Golang" aria-hidden="true" >
 							<span class="sr-only">Golang</span>
 						</li>
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/visual-studio-team-services-git-repository.png"  aria-hidden="true" title="Git" alt="Git">
 							<span class="sr-only">Git</span>
 						</li>
-						<li class="icon-dev">
+						<li class="icon-dev curseur-section lien-survol">
 							<img src="./images/github.png" title="Github" alt="Github" aria-hidden="true" alt="Github"/>
 							<span class="sr-only">Github</span>
 						</li>
@@ -121,7 +130,7 @@
 			</section>
 			<section class="section alignement-central">
 				<div class="titre titre1">
-					<h2><a href="#" class="effet-brillant">Meilleurs Projets</a></h2>
+					<h2><a href="#" class="effet-brillant curseur-section lien-survol">Meilleurs Projets</a></h2>
 				</div>
 				<div class="cartes">
 					<article class="carte carte--1">
@@ -132,7 +141,7 @@
 								</svg>
 							</a>
 							<div class="carte-info-site">
-								<a href="#">
+								<a href="#" class="">
 									<svg class="carte-info" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16">
 										<path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 7 4 L 7 5 L 8 5 L 8 4 Z M 7 6 L 7 11 L 8 11 L 8 6 Z"></path>
 									</svg>
@@ -147,7 +156,7 @@
 						<div class="carte__info">
 							<span class="carte-categorie">Mon Portfolio</span>
 							<h3 class="carte-titre">Site Web Statique.</h3>
-							<span class="carte-info-dev"><a href="#" class="carte-info-langages" title="author">HTML | CSS | JS</a></span>
+							<span class="carte-info-dev">HTML | CSS | JS</span>
 						</div>
 					</article>
 					<article class="carte carte--2">
@@ -173,55 +182,98 @@
 						<div class="carte__info">
 							<span class="carte-categorie">Projet en cours...</span>
 							<h3 class="carte-titre">Création d'un site web dynamique.</h3>
-							<span class="carte-info-dev"><a href="#" class="carte-info-langages" title="author">HTML | CSS | Bootstrap | Python | Django</a></span>
+							<span class="carte-info-dev">HTML | CSS | Bootstrap | Python | Django</span>
 						</div>
 					</article>
 				</div>
 			</section>
 			<section id="mes-projets" class="section">
 				<div class="titre titre2">
-					<h2><a href="#" class="effet-brillant">Mes Projets</a></h2>
+					<h2><a href="#" class="effet-brillant curseur-section lien-survol">Mes Projets</a></h2>
 				</div>
-				<div class="mes-projets-defilement">
-					<input type="radio" name="slider" title="slide1" checked="checked" class="bouton-defilement"/>
-					<input type="radio" name="slider" title="slide2" class="bouton-defilement"/>
-					<input type="radio" name="slider" title="slide3" class="bouton-defilement"/>
-					<input type="radio" name="slider" title="slide4" class="bouton-defilement"/>
-					<div class="defilement-image">
-						<div class="defilement-contenu defilement-contenu1">
-							<div class="defilement-texte">
-								<h2 class="defilement-legende">Calcul Mental</h2>
-								<p class="defilement-description">
-									Venez tester vos compétences en calcul mental selon votre niveau et votre goût pour les mathématiques !
-								</p>
-							</div>
+
+
+				<div class="conteneur-projet">
+					<input type="radio" name="slider" id="s1" checked>
+					<input type="radio" name="slider" id="s2">
+					<input type="radio" name="slider" id="s3">
+					<input type="radio" name="slider" id="s4">
+					<input type="radio" name="slider" id="s5">
+					<div class="cartes-projet">
+					  <label for="s1" id="slide1">
+						<div class="carte-projet">
+						  <div class="image">
+							<img src="images/2022-11-13_16h01_31.png" alt="">
+						  </div>
+						  <div class="ligne"></div>
+						  <div class="infos">
+							<span class="name">Calcul Mental</span>
+						  </div>
+						  <div class="conteneur-bouton">
+							<div class="btn btn__secondary"><p>Mon Projet</p></div>
+						  </div>
 						</div>
-						<div class="defilement-contenu defilement-contenu2">
-							<div class="defilement-texte">
-								<h2 class="defilement-legende">Projet en cours</h2>
-								<p class="defilement-description">
-									Description à venir...
-								</p>
-							</div>
+					  </label>
+					  <label for="s2" id="slide2">
+						<div class="carte-projet">
+						  <div class="image">
+							<img src="images/coming-soon2.jpg" alt="">
+						  </div>
+						  <div class="ligne"></div>
+						  <div class="infos">
+							<span class="name">Projet en cours...</span>
+						  </div>
+						  <div class="conteneur-bouton">
+							<div class="btn btn__secondary"><p>Mon Projet</p></div>
+						  </div>
 						</div>
-						<div class="defilement-contenu defilement-contenu3">
-							<div class="defilement-texte">
-								<h2 class="defilement-legende">Projet en cours</h2>
-								<p class="defilement-description">
-									Description à venir...
-								</p>
-							</div>
+					  </label>
+					  <label for="s3" id="slide3">
+						<div class="carte-projet">
+						  <div class="image">
+							<img src="images/coming-soon2.jpg" alt="">
+						  </div>
+						  <div class="ligne"></div>
+						  <div class="infos">
+							<span class="name">Projet en cours...</span>
+						  </div>
+						  <div class="conteneur-bouton">
+							<div class="btn btn__secondary"><p>Mon Projet</p></div>
+						  </div>
 						</div>
-						<div class="defilement-contenu defilement-contenu4">
-							<div class="defilement-texte">
-								<h2 class="defilement-legende">Projet en cours</h2>
-								<p class="defilement-description">
-									Description à venir...
-								</p>
-							</div>
+					  </label>
+					  <label for="s4" id="slide4">
+						<div class="carte-projet">
+						  <div class="image">
+							<img src="images/coming-soon2.jpg">
+						  </div>
+						  <div class="ligne"></div>
+						  <div class="infos">
+							<span class="name">Projet en cours...</span>
+						  </div>
+						  <div class="conteneur-bouton">
+							<div class="btn btn__secondary"><p>Mon Projet</p></div>
+						  </div>
 						</div>
+					  </label>
+					  <label for="s5" id="slide5">
+						<div class="carte-projet">
+						  <div class="image">
+							<img src="images/coming-soon2.jpg" alt="">
+						  </div>
+						  <div class="ligne"></div>
+						  <div class="infos">
+							<span class="name">Projet en cours...</span>
+						  </div>
+						  <div class="conteneur-bouton">
+							<div class="btn btn__secondary"><p>Mon Projet</p></div>
+						  </div>
+						</div>
+					  </label>
 					</div>
 				</div>
+
+
 			</section>
 			<section class="section alignement-central">
 				<div class="fond">
@@ -242,11 +294,11 @@
 							<div class="corp-formulaire">
 								<div class="corp-formulaire-infos gauche">
 									<div class="titre-formulaire">
-										<span>CONTACTEZ</span>
-										<span>MOI</span>
+										<span>ME</span>
+										<span>CONTACTER</span>
 									</div>
 									<div class="formulaire-info-contact">
-										INFO DE CONTACT : 07 86 20 99 23
+										INFO DE CONTACT : 07 82 52 70 99
 									</div>
 								</div>
 								<div class="corp-formulaire-infos">
@@ -264,8 +316,8 @@
 											<input class="formulaire-renseignement-controle" placeholder="MESSAGE">
 										</div>
 										<div class="formulaire-renseignement-groupe buttons">
-											<button class="formulaire-renseignement-bouton1">ANNULER</button>
-											<button class="formulaire-renseignement-bouton2">ENVOYER</button>
+											<button class="formulaire-renseignement-bouton1 curseur-section lien-survol">ANNULER</button>
+											<button class="formulaire-renseignement-bouton2 curseur-section lien-survol">ENVOYER</button>
 										</div>
 									</div>
 								</div>
@@ -304,17 +356,6 @@
 				</ul>
 			</section>
 		</footer>
-		<style>
-			* *, *::before, *::after
-			{
-				animation-play-state: running !important;
-			}
-		</style>
-		<script>
-			window.setTimeout = null;
-		</script>
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-		<script type="text/javascript" src="./scripts/email.js"></script>
-		<script src="https://kit.fontawesome.com/301fbecf53.js" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
